@@ -56,7 +56,28 @@ Este proyecto es una aplicación de Trivia construida usando HTML, CSS y JavaScr
 
 ## USO
 
-Una vez que las dependencias estén instaladas, puedes abrir el archivo `index.html` en tu navegador web para comenzar a jugar con la Trivia App. Haz clic en el botón "Start Trivia" para comenzar, luego selecciona el modo de juego deseado (Juego Rápido, Juego Medio o Juego Largo) para comenzar a jugar, lee cada pregunta cuidadosamente y elige la respuesta correcta haciendo clic en la opción correspondiente, observa el mensaje de éxito o error después de seleccionar una respuesta.
+Claro, aquí tienes una versión mejorada:
+
+## INSTRUCCIONES DE USO
+
+Una vez que hayas instalado las dependencias necesarias, sigue estos pasos para disfrutar de Trivia App:
+
+1. **Inicio de la Trivia**:
+   - Abre el archivo `index.html` en tu navegador web.
+   - Haz clic en el botón "Start Trivia" para comenzar.
+
+2. **Selecciona el Modo de Juego**:
+   - Elige el modo de juego que prefieras: Juego Rápido, Juego Medio o Juego Largo.
+
+3. **Responde las Preguntas**:
+   - Lee cada pregunta cuidadosamente.
+   - Selecciona la respuesta correcta haciendo clic en la opción correspondiente.
+
+4. **Observa los Resultados**:
+   - Después de seleccionar una respuesta, observa el mensaje de éxito o error que aparece.
+   
+5. **Visualiza tu Puntaje Final**:
+   - Al finalizar todas las preguntas, se mostrará tu puntaje final en la pantalla.
 
 ## DESPLIEGUE
 
