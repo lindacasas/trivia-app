@@ -60,7 +60,7 @@ Una vez que las dependencias estén instaladas, puedes abrir el archivo `index.h
 
 ## DESPLIEGUE
 
-El proyecto "Clon de Netflix" está desplegado en GitHub Pages y se puede acceder a él en la siguiente URL:
+El proyecto "Trivia App" está desplegado en GitHub Pages y se puede acceder a él en la siguiente URL:
 
 ```
 https://lindacasas.github.io/trivia-app/
