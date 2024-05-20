@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title" style="display: none;">Trivia App</h1>
+        <button id="buttonStart" onclick="showGameOptions()">Start Trivia</button>
+        <div id="game-options" style="display: none;">
+            <button onclick="startTrivia(10)">Juego Rápido - 10 preguntas</button>
+            <button onclick="startTrivia(25)">Juego Medio - 25 preguntas</button>
+            <button onclick="startTrivia(50)">Juego Largo - 50 preguntas</button>
+        </div>
+        <div id="question-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
