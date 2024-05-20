@@ -1,7 +1,8 @@
 let currentQuestionIndex = 0;
 let questions = [];
-const colorCorrect ='#128c7e';
-const colorIncorrect ='#8c1212';
+let score = 0;
+const colorCorrect = '#128c7e';
+const colorIncorrect = '#8c1212';
 const container = document.querySelector('.container');
 
 function showGameOptions() {
@@ -21,6 +22,7 @@ async function startTrivia(amount) {
         if (response_code === 0) {
             questions = results;
             currentQuestionIndex = 0;
+            score = 0;
             displayCurrentQuestion();
         } else {
             console.error('Failed to fetch trivia questions');
@@ -50,7 +52,10 @@ function displayCurrentQuestion() {
         `;
         container.appendChild(questionElement);
     } else {
-        document.getElementById('title').style.display = 'none';
+        
+        title.style.display = 'none';
+        const finalScore = score * 100;
+        container.innerHTML = `<p id="finalMessage">Tu puntaje final es: ${finalScore}/${questions.length * 100} puntos</p>`;
         const resetButton = document.createElement('button');
         resetButton.textContent = 'Volver al Menú';
         resetButton.onclick = showGameOptions;
@@ -59,6 +64,10 @@ function displayCurrentQuestion() {
 }
 
 function checkAnswer(userAnswer, correctAnswer) {
+    if (userAnswer === correctAnswer) {
+        score++;
+    }
+
     const options = document.querySelectorAll('.question li');
     options.forEach(option => {
         if (option.textContent === userAnswer) {
@@ -93,7 +102,7 @@ function markCorrectAnswer(correctAnswer) {
     const options = document.querySelectorAll('.question li');
     options.forEach(option => {
         if (option.textContent === decodeString(correctAnswer)) {
-            option.style.backgroundColor  = colorCorrect;
+            option.style.backgroundColor = colorCorrect;
             option.style.borderRadius = '10px';
             option.style.color = '#FFFFFF';
             option.style.border = 'none'; 
