@@ -25,7 +25,7 @@ Este proyecto es una aplicación de Trivia construida usando HTML, CSS y JavaScr
 5. **Interacción de Usuario**:
    - La aplicación proporciona botones para continuar al siguiente conjunto de preguntas o volver al menú principal.
 
-## Tecnologías Utilizadas
+## TECNOLOGÍAS UTILIZADAS
 
 - **HTML**: Estructura el contenido de la aplicación web.
 - **CSS**: Estiliza la interfaz de usuario para una experiencia visual atractiva.
@@ -33,7 +33,7 @@ Este proyecto es una aplicación de Trivia construida usando HTML, CSS y JavaScr
 - **Axios**: Cliente HTTP para realizar solicitudes a la API de Open Trivia Database.
 - **SweetAlert2**: Biblioteca para mostrar mensajes emergentes personalizados.
 
-## Instalación
+## INSTALACIÓN
 
 1. Clona el repositorio:
 
@@ -55,10 +55,6 @@ Este proyecto es una aplicación de Trivia construida usando HTML, CSS y JavaScr
 4. Abre el archivo `index.html` en tu navegador web preferido.
 
 ## USO
-
-Claro, aquí tienes una versión mejorada:
-
-## INSTRUCCIONES DE USO
 
 Una vez que hayas instalado las dependencias necesarias, sigue estos pasos para disfrutar de Trivia App:
 
